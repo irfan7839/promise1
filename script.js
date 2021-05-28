@@ -1,10 +1,4 @@
-// fetch("https://restcountries.eu/rest/v2/all").then(response=>{
-//     console.log(response);
-// }).then(result=>{
-//     console.log(result);
-// }).catch(error=>{
-//     console.log(error);
-// });
+
 fetch("https://api.imgflip.com/get_memes").then(response => {
     let c = response.json();
     return c;
